@@ -1,18 +1,10 @@
-from flask import Flask, render_template
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return '''
-    <!DOCTYPE html>
-    <html>
-    <head><title>My Azure App</title></head>
-    <body>
-    <h1>Hello Azure 👋</h1>
-    <p>This is my first web app.</p>
-    </body>
-    </html>
-    '''
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Azure App</title>
+</head>
+<body>
+  <h1>Hello Azure 👋</h1>
+  <p>This is my first web app.</p>
+</body>
+</html>
